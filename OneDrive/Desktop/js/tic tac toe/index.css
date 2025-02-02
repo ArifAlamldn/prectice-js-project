@@ -38,12 +38,13 @@ body{
     height: 150px;
     width: 150px;
 
+    
     background-color: rgb(130, 40, 40);
    margin:5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   font-size: 9rem;
 }
 button{
