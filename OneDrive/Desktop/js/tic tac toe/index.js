@@ -16,8 +16,9 @@ let winnerPatter =[
 
 
 
-
     
+
+
 
 ]
 
