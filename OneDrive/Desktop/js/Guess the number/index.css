@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(127, 127, 67);
+}
+#line{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+h3{
+    font-size: 25px;
+    margin:10px;
+}
+#enter{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+    margin:10px;
+}
+#submit{
+    margin:2px;
+    padding:2px
+}
+button{
+    padding: 10px;
+    width: 70px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#message{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}

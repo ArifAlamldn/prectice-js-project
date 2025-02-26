@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div id="main">
+    <div id="back">
+        <img src="images/image1.avif" alt="">
+        <img src="images/image2.avif" alt="">
+        <img src="images/image3.avif" alt="">
+        <img src="images/image4.avif" alt="">
+        <img src="images/image5.avif" alt="">
+    </div>
+    <div id="top">
+        <div id="workspace">
+            <nav>
+                <div id="nleft">
+                    <img src="images/logo.png" alt="logo">
+                    <a href="#">PRODUCT</a>
+                    <a href="#">ABOUT</a>
+                </div>
+                <div id="nright">
+                    <a href="#">LUX</a>
+                    <a href="#">PRICE</a>
+                </div>
+            </nav>
+            <div id="hero">
+                <div id="heroleft">
+                    <div class="elem">
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                    </div>
+                    <div class="elem">
+                        <h1>gives zero</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                    </div>
+                    <div class="elem">
+                        <h1>funks.</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                        <h1>daving change</h1>
+                    </div>
+                    <button>Explore</button>
+                </div>
+                <div id="heroright">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div id="imagediv">
+                       
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident fugiat hic inventore repellat enim aut repudiandae tempore totam dolores. Eveniet consectetur sunt veniam. Non vel quam omnis soluta reiciendis eveniet facere earum delectus! Perferendis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eum commodi quas maiores odio consequuntur culpa aspernatur eligendi! Obcaecati sed fugiat nobis tempora!</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+ Scroll Trigger is needed for Scroll Effects -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
+
+<!-- Three.js is needed for 3d Effects -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script> -->
+
+<!-- ControlKit is needed for Debug Panel -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+<script src="index.js"></script>
+</body>
+</html> --> 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "gilroy";
+        }
+        html, body {
+            height: 100vh;
+            width: 100%;
+        }
+        #main {
+            height: 100vh;
+            width: 100%;
+        }
+        #back {
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #back img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="back">
+            <img src="images/image1.avif" alt="">
+            <img src="images/image2.avif" alt="">
+            <img src="images/image3.avif" alt="">
+            <img src="images/image4.avif" alt="">
+            <img src="images/image5.avif" alt="">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <!-- Use Three.js with ES Modules -->
+    <script type="module">
+        import * as THREE from 'https://threejs.org/build/three.module.js';  // Replace with the correct URL
+        // Your Three.js code here
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    
+    <script>
+        Shery.imageEffect("#back", {
+            style: 5,
+            confiq: {
+                a:{"value":1.49,"range":[0,30]},b:{value:-0.98,range:[-1,1]},aspect:{value:1.848190111735243},"gooey":{"value":true},"infiniteGooey":{"value":true},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.33,"range":[1,5]},"scrollType":{"value":0},"geoVertex":{"range":[1,64],"value":1},"noEffectGooey":{"value":false},"onMouse":{"value":1},"noise_speed":{"value":1.59,"range":[0,10]},"metaball":{"value":0.21,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0,"range":[0,0.1]},"noise_height":{"value":0.47,"range":[0,2]},"noise_scale":{"value":12.15,"range":[0,100]}
+
+                // Your configuration here
+            },
+            gooey: true,
+        });
+    </script>
+</body>
+</html>

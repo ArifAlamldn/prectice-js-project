@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+span{
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+
+}
+span::after{
+    content: "";
+    height: 75px;
+    width: 3px;
+    background-color: rgb(242, 188, 188);
+}

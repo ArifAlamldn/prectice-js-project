@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content:0 ;
+    align-items: center;
+    width: 100%;
+}
+ #main{
+    width: 400px;
+    background-color: red;
+    
+    position: relative;
+ }
+ label{
+    font-size: large;
+    margin: 10px;
+    
+    
+ }
+ button{
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left: 10px;
+ 
+    
+ }input{
+    margin: 10px 0;
+ }
