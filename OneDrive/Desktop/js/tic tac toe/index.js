@@ -17,12 +17,13 @@ let winnerPatter =[
 
 
 
+
+
+
+
+
+
     
-
-
-
-
-
 ]
 
 boxes.forEach((box)=>{
