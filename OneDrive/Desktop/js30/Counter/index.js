@@ -1,5 +1,6 @@
 let count = 0
 
+
 const ct = document.querySelector("#count")
 const inc = document.querySelector("#inc")
 ct.innerHTML = `${count}`
